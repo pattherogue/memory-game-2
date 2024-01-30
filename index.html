@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Memory Game</h1>
+    <button id="start-button">Start Game</button>
+    <button id="restart-button" disabled>Restart Game</button>
+    <div id="score">Score: 0</div>
+    <div id="lowest-score">Lowest Score: 0</div>
+    <div id="game"></div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-btn" class="close-btn">&times;</span>
+            <h2>Memory Card Game Instructions</h2>
+            <p>Match pairs of cards by clicking on them. If the two cards have the same color, they will remain face up. If not, they will be flipped back down. The goal is to match all the pairs.</p>
+            <p>Your score is displayed at the top. Try to achieve the lowest score possible!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
